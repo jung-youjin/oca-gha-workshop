@@ -19,3 +19,6 @@ jobs:
 
       - name: Hello OCA~!~!
         uses: ./.github/actions/hello-oca
+        with:
+          member1: "YouJin Jung"
+          member2: "Justin Yoo"
