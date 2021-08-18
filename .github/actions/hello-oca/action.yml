@@ -1,0 +1,15 @@
+name: Hello oca
+description: Say hello to oca
+
+inputs:
+  member1:
+    description: Oca member1
+    required: false
+
+  member2:
+    description: Oca Member2
+    required: false
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
